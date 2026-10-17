@@ -1,0 +1,5 @@
+{
+  "name": "prompt-model-suggester",
+  "version": "0.1.0",
+  "description": "Classifies each prompt with Haiku, suggests haiku/sonnet/opus in a band above the prompt, and runs the turn on the model you pick."
+}

@@ -1,0 +1,6 @@
+{
+  "name": "plugin-auditor",
+  "version": "0.1.0",
+  "description": "Audits installed plugins and mods (token cost, state, errors, MCP servers) in a pane, with enable, disable, details and remove actions",
+  "types": "./types/index.d.ts"
+}

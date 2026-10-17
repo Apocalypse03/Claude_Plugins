@@ -1,0 +1,44 @@
+{
+  "name": "simple-mod-marketplace",
+  "description": "My collection of Claude Code mods for model routing, plugin auditing, usage meter, loop checking and permission explanation",
+  "owner": {
+    "name": "XianLiu"
+  },
+  "plugins": [
+    {
+      "name": "prompt-model-suggester",
+      "description": "Suggests a model before prompt execution and lets you confirm or change it",
+      "version": "0.1.0",
+      "author": {"name" : "XianLiu"},
+      "source": "./plugins/prompt-model-suggester"
+    },
+    {
+      "name": "plugin-auditor",
+      "description": "Side pane that audits installed plugins and shows which are useful",
+      "version": "0.1.0",
+      "author": {"name" : "XianLiu"},
+      "source": "./plugins/plugin-auditor"
+    },
+    {
+      "name": "permission-explainer",
+      "description": "Explains what permission requests actually mean in plain English",
+      "version": "0.1.0",
+      "author": {"name" : "XianLiu"},
+      "source": "./plugins/permission-explainer"
+    },
+    {
+      "name": "usage-meter",
+      "description": "Shows the 5 hour and Weekly usage, it also warn you when the chat is getting expensive",
+      "version": "0.1.0",
+      "author": {"name" : "XianLiu"},
+      "source": "./plugins/usage-meter"
+    },
+    {
+      "name": "loop-timer",
+      "description": "Shows the loop timer when set, and it let you manage it to some extent",
+      "version": "0.1.0",
+      "author": {"name" : "XianLiu"},
+      "source": "./plugins/loop-timer"
+    }
+  ]
+}
