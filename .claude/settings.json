@@ -10,7 +10,6 @@
   "enabledPlugins": {
     "plugin-auditor@simple-mod-marketplace": true,
     "permission-explainer@simple-mod-marketplace": true,
-    "usage-meter@simple-mod-marketplace": true,
     "loop-timer@simple-mod-marketplace": true
   }
 }

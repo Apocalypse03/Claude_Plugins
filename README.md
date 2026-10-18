@@ -6,12 +6,11 @@ Claude Code mods by Apocalypse03.
 | --- | --- |
 | `plugin-auditor` | `/plugin-audit` opens a pane that audits installed plugins and mods, with enable, disable and remove actions |
 | `permission-explainer` | Explains each permission prompt in plain English in a side pane |
-| `usage-meter` | Shows 5-hour and weekly usage above the prompt and warns when a session gets expensive |
 | `loop-timer` | Shows each `/loop` as a timer ring above the prompt, with controls to stop it or change its interval |
 
 ## Install
 
-Sessions opened in this repository pick the marketplace and all four plugins up from `.claude/settings.json` (accept the prompt to install the marketplace when the folder is trusted).
+Sessions opened in this repository pick the marketplace and all three plugins up from `.claude/settings.json` (accept the prompt to install the marketplace when the folder is trusted).
 
 Anywhere else, at the prompt of a terminal session:
 
@@ -27,4 +26,4 @@ claude plugin marketplace add Apocalypse03/Claude_Plugins
 claude plugin install loop-timer@simple-mod-marketplace
 ```
 
-Swap `loop-timer` for `plugin-auditor`, `permission-explainer` or `usage-meter`, then run `/reload-plugins`.
+Swap `loop-timer` for `plugin-auditor` or `permission-explainer`, then run `/reload-plugins`.

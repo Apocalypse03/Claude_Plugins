@@ -24,15 +24,6 @@
       "source": "./plugins/permission-explainer"
     },
     {
-      "name": "usage-meter",
-      "description": "Shows the 5 hour and Weekly usage, it also warn you when the chat is getting expensive",
-      "version": "0.1.0",
-      "author": {
-        "name": "Apocalypse03"
-      },
-      "source": "./plugins/usage-meter"
-    },
-    {
       "name": "loop-timer",
       "description": "Shows the loop timer when set, and it let you manage it to some extent",
       "version": "0.1.0",
