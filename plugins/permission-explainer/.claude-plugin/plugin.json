@@ -2,5 +2,8 @@
   "name": "permission-explainer",
   "version": "0.1.0",
   "description": "Explains each permission prompt in plain English (Haiku, with a templated fallback) in a side pane.",
+  "author": {
+    "name": "Apocalypse03"
+  },
   "types": "./types/index.d.ts"
 }
