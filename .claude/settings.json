@@ -1,0 +1,16 @@
+{
+  "extraKnownMarketplaces": {
+    "simple-mod-marketplace": {
+      "source": {
+        "source": "github",
+        "repo": "Apocalypse03/Claude_Plugins"
+      }
+    }
+  },
+  "enabledPlugins": {
+    "plugin-auditor@simple-mod-marketplace": true,
+    "permission-explainer@simple-mod-marketplace": true,
+    "usage-meter@simple-mod-marketplace": true,
+    "loop-timer@simple-mod-marketplace": true
+  }
+}

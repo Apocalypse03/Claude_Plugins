@@ -2,5 +2,8 @@
   "name": "loop-timer",
   "version": "0.1.0",
   "description": "Shows each /loop as a timer ring above the prompt, with controls to stop it or change its interval",
+  "author": {
+    "name": "Apocalypse03"
+  },
   "types": "./types/index.d.ts"
 }
